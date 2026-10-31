@@ -70,7 +70,7 @@ pip install pyinstaller
 Build the application using the .spec file:
 
 ```bash
-pyinstaller text_editor.spec
+pyinstaller "Text Editor.spec"
 ```
 
 The compiled application will be available in the `dist/` directory.
@@ -91,7 +91,6 @@ text-editor/
 ├── app.py
 ├── icon.ico
 ├── Text Editor.spec
-├── requirements.txt
 ├── README.md
 └── LICENSE
 ```
@@ -104,4 +103,4 @@ Feel free to open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
